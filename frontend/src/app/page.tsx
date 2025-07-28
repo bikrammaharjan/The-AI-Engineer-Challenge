@@ -211,15 +211,7 @@ export default function Home() {
           </div>
         </form>
 
-        {/* Instructions */}
-        <div className="mt-8 text-center text-purple-200 text-sm">
-          <p>
-            💡 Make sure your FastAPI backend is running on <code className="bg-white/20 px-2 py-1 rounded">http://localhost:8000</code>
-          </p>
-          <p className="mt-2">
-            🔧 Run the backend with: <code className="bg-white/20 px-2 py-1 rounded">cd api && python app.py</code>
-          </p>
-        </div>
+        
       </div>
     </div>
   );
