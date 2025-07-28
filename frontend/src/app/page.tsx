@@ -45,7 +45,7 @@ export default function Home() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:8000/api/chat', {
+      const response = await fetch('https://beyond-chatgpt.vercel.app/api/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
