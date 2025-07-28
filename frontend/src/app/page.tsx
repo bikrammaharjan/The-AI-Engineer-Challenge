@@ -44,7 +44,7 @@ export default function Home() {
     setCurrentResponse('');
     setIsLoading(true);
 
-    try {
+    try { 
       const response = await fetch('https://beyond-chatgpt.vercel.app/api/chat', {
         method: 'POST',
         headers: {
